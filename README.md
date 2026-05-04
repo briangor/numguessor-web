@@ -4,7 +4,7 @@ The web-based version of [NumGuessor](https://github.com/briangor/numguessor) - 
 
 Built with **React + TypeScript + Vite**. No UI libraries, no Tailwind - plain CSS Modules with a terminal-inspired aesthetic.
 
-🔗 **Live:** [numguessor-web.vercel.app](https://numguessor-web.vercel.app) 
+🔗 **Live:** [numguessor.0xb13.xyz](https://numguessor.0xb13.xyz) 
 
 ---
 
