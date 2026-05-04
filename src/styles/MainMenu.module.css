@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 560px;
+    animation: flicker 0.5s ease-in forwards;
+}
+
+/* ASCII art header */
+.ascii {
+    text-align: center;
+}
+
+.asciiPre {
+    font-size: 0.6rem;
+    line-height: 1.2;
+    color: var(--green);
+    text-shadow:
+        0 0 8px var(--green),
+        0 0 22px rgba(0, 255, 65, 0.35);
+    display: inline-block;
+    text-align: left;
+}
+
+@media (min-width: 480px) {
+    .asciiPre {
+        font-size: 0.7rem;
+    }
+}
+
+/* Divider */
+.divider {
+    border: none;
+    border-top: 1px solid var(--border);
+}
+
+/* Intro */
+.intro {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.7;
+}
+
+.intro span {
+    color: var(--green);
+}
+
+/* Mode section */
+.modeLabel {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+}
+
+.modes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Mode button */
+.modeBtn {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color var(--transition), background var(--transition);
+}
+
+.modeBtn:hover {
+    border-color: var(--green);
+    background: rgba(0, 255, 65, 0.05);
+}
+
+.modeBtnLabel {
+    font-weight: 700;
+    color: var(--green);
+    text-shadow: 0 0 5px rgba(0, 255, 65, 0.3);
+}
+
+.modeBtnDesc {
+    margin-top: 0.35rem;
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+}
+
+/* Footer hint */
+.footer {
+    font-size: 0.7rem;
+    text-align: center;
+    color: var(--text-dim);
+}
+
+.footer span {
+    color: var(--green);
+}
